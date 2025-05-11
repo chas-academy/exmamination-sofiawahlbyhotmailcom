@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Budget- och utgiftskoll</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
 <body>
@@ -11,11 +11,11 @@
 
   <!-- Formulär för att lägga till transaktioner -->
   <div>
-    <label for="desc">Beskrivning:</label>
+    <label for="desc">Beskrivning:</label><br>
     <input type="text" id="desc" placeholder="Ex: Mat, Hyra" />
   </div>
   <div>
-    <label for="amount">Belopp:</label>
+    <label for="amount">Belopp:</label><br>
     <input type="number" id="amount" placeholder="Ex: 500" />
   </div>
   
@@ -37,6 +37,8 @@
 
   <!-- Visning av totalt saldo -->
   <h2>Saldo: <span id="balance">0</span> kr</h2>
+
+
 
 </body>
 </html>
